@@ -15,7 +15,8 @@
     "bootstrap": "^5.3.3",
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.5",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "tsc": "^2.0.4"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
@@ -33,7 +34,8 @@
     "postcss": "^8.4.47",
     "react-router-dom": "^6.27.0",
     "tailwindcss": "^3.4.13",
-    "typescript": "^5.5.3",
+    "typescript": "^5.6.3",
     "vite": "^5.4.1"
-  }
+  },
+  "homepage": "https://Devikala24UX.github.io/DeviPortfolio"
 }

@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './VideoGallery.css';
 
 function VideoGallery() {
   // useState hook to manage the current index of the displayed video
-  const [index, setIndex] = useState(0);
+  const [, setIndex] = useState(0);
 
   // Function to go to the next video in the gallery
   function goToNextVideo() {
