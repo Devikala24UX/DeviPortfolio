@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+ 
+.contact-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  background-image: url('../assets/BW.jpg'); /* Add the URL of your background image */
+  background-size: cover; /* Ensure the background image covers the entire area */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+
+ 
+.header-container {
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+ 
+.header-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(60%);
+}
+ 
+.header-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  /* text-shadow: 0 2px 5px rgba(0, 0, 0, 0.8); */
+}
+ 
+.header-overlay h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0;
+}
+ 
+.header-overlay p {
+  font-size: 1.5rem;
+}
+ 
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 10%;
+  gap: 2rem;
+}
+ 
+.info-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+ 
+.info-box {
+  padding: 1.5rem;
+  background: #2b2b3f;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+ 
+.info-box h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.8rem;
+  color: #c4c4ff;
+}
+ 
+.info-box p {
+  font-size: 1.2rem;
+  color: #eeeeff;
+}
+ 
+.form-section {
+  flex: 1;
+  background: #2b2b3f;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+ 
+.form-section h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  color: #c4c4ff;
+}
+ 
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+ 
+form label {
+  font-size: 1.2rem;
+  color: #eeeeff;
+}
+ 
+form input,
+form textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: #1e1e2f;
+  color: #ffffff;
+  outline: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+ 
+form button {
+  padding: 0.8rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #ffffff;
+  background: linear-gradient(135deg, #646cff, #535bf2);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  button {
+  background: linear-gradient(135deg, #646cff, #535bf2);
+  color: #fff;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease; /* Smooth transition for background changes */
+}
+ 
+button:hover {
+  background: linear-gradient(135deg, #535bf2, #646cff); /* Changes background */
+}
+ 
+}
+ 
+form button:hover {
+  background: linear-gradient(135deg, #535bf2, #646cff);
+}
