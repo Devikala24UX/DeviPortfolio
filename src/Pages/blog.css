@@ -1,0 +1,90 @@
+.blog-container {
+  width: 90%;
+  margin: auto;
+  max-width: 1200px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+.blog-post {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #ffffff, #f9f9f9);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog-post:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.image-container img {
+  max-width: 100%;
+  border-radius: 12px;
+  margin-top: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.image-container img:hover {
+  transform: scale(1.05);
+}
+
+.reactions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+.reactions button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 1.5em;
+  transition: transform 0.2s ease;
+}
+
+.reactions button:hover {
+  transform: scale(1.2);
+}
+
+.reactions span {
+  font-size: 1em;
+  color: #555;
+}
+
+.reactions .like {
+  color: #007bff;
+}
+
+.reactions .heart {
+  color: #e63946;
+}
+
+.reactions .sad {
+  color: #6c757d;
+}
+
+.reactions .happy {
+  color: #ffd700;
+}
+
+.comments-section {
+  margin-top: 30px;
+}
+
+.comment img {
+  max-width: 100%;
+  margin-top: 10px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
