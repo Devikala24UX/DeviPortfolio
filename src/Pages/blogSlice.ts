@@ -9,13 +9,14 @@ interface BlogPost {
   date: string;
 }
 
-interface Comment {
-  title: string;
-  author: string;
-  content: string;
-  image: string | null;
-  timestamp: string;
-}
+type Comment = {
+    postId: number; // Include this property
+    title: string;
+    author: string;
+    content: string;
+    timestamp: string;
+  };
+  
 
 interface Reactions {
   heart: number;

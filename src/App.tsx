@@ -13,6 +13,7 @@ import Project1 from './Pages/Project1';
 import Project2 from './Pages/Project2';
 import Project3 from './Pages/Project3';
 import BlogPage from './Pages/BlogPage'; // Correct naming for BlogPage
+import logo from './assets/Devi logo.png';
 
 // Import styles
 import 'bootstrap/dist/css/bootstrap.css';
@@ -28,7 +29,10 @@ const App: React.FC = () => {
       <nav>
         <ul className="navbar">
           <div className="navbar-logo">
-            <div className="logo-container">D'kala Art</div>
+            {/* <div className="logo-container">D'kala Art</div> */}
+            <div className="logo-container">
+  <img src={logo} alt="Logo" />
+</div>
             <li><Link to="/Home">Home</Link></li>
             <li><Link to="/About">About</Link></li>
             <li><Link to="/Project">Project</Link></li>

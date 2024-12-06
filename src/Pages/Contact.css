@@ -127,12 +127,12 @@ form button {
   font-size: 1.2rem;
   font-weight: bold;
   color: #ffffff;
-  background: linear-gradient(135deg, #646cff, #535bf2);
+  background: linear-gradient(135deg, #841667, #841667);
   border: none;
   border-radius: 8px;
   cursor: pointer;
   button {
-  background: linear-gradient(135deg, #646cff, #535bf2);
+  background: linear-gradient(135deg, #816ad1, #816ad1);
   color: #fff;
   padding: 0.8rem;
   border: none;
@@ -142,11 +142,11 @@ form button {
 }
  
 button:hover {
-  background: linear-gradient(135deg, #535bf2, #646cff); /* Changes background */
+  background: linear-gradient(135deg, #a053f2, #a053f2); /* Changes background */
 }
  
 }
  
 form button:hover {
-  background: linear-gradient(135deg, #535bf2, #646cff);
+  background: linear-gradient(135deg, #816ad1, #816ad1);
 }
